@@ -1,0 +1,13 @@
+.list{
+    list-style: none;
+    text-align: left;
+
+    &_item{
+        padding: 8px 0;
+
+        &-done{
+            text-decoration: line-through;
+            color: #ccc;
+        }
+    } 
+}

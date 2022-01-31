@@ -1,0 +1,22 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 700px;
+    margin: 16px auto;
+
+    &_form{
+        padding: 0 16px;
+    }
+
+    &_phone{
+        @media(max-width:1023px){
+            width: 400px;
+        }
+    }   
+    @media(max-width:1023px){
+        width: 400px;
+    }
+}
